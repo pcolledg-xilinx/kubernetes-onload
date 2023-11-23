@@ -303,4 +303,5 @@ catalog-push: ## Push a catalog image.
 
 .PHONY: onload-module-dtk
 onload-module-dtk:
-	$(MAKE) -C build/onload-module onload-module-dtk
+	$(MAKE) -C scripts/onload-module onload-module-dtk
+
